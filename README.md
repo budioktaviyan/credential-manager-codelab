@@ -1,9 +1,7 @@
-# Android Credential Manager Sample
+# Android Credential Manager
 
-## Bringing seamless authentication to your apps with passkeys using Credential Manager API
+## Bringing seamless authentication to your apps with passkeys using Credential Manager
 
-### Prerequisites
+# Requirements
 
-Please do generate your own debug key
-
-```keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "C=US, O=Android, CN=Android Debug"```
+Use the same debug.keystore mentioned in the sample project to build debug and release variants in order to verify the digital asset linking of sample app package name and sha on your mock server. This is already being done for you in ```build.gradle```
