@@ -3,7 +3,6 @@
         android:height="108dp"
         android:viewportHeight="108"
         android:viewportWidth="108">
-
   <path
       android:fillColor="#3DDC84"
       android:pathData="M0,0h108v108h-108z" />
